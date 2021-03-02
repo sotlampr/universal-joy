@@ -1,0 +1,8 @@
+matplotlib
+numpy
+pandas
+pytorch_transformers==1.2.0
+scikit-learn
+seaborn
+tabulate
+torch
