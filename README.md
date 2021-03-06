@@ -4,8 +4,16 @@
 
 ### How to cite
 
-TBD
-
+**DRAFT - to be revised**
+```
+@inproceedings{lamprinidis2021universal,
+  title={Universal Joy A Dataset and Results for Classifying Emotions Across Languages},
+  author={Lamprinidis, Sotiris and Bianchi, Federico and Hardt, Daniel and Hovy, Dirk},
+  year={2021},
+  volume={11th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis (WASSA 2021)}
+  organization={Association for Computational Linguistics}
+}
+```
 ### How to run
 
 ```bash
