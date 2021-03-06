@@ -14,6 +14,19 @@ The dataset is licensed under a
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 
 -----
+## Abstract
+
+> While emotions are universal aspects of human psychology, they are expressed differently across different languages and cultures.
+> We introduce a new data set of over 530k anonymized public Facebook posts across 18
+> languages, labeled with five different emotions. Using multilingual BERT embeddings,
+> we show that emotions can be reliably inferred both within and across languages. Zero-shot
+> learning produces promising results for lowresource languages. Following established theories of basic emotions, we provide a detailed
+> analysis of the possibilities and limits of crosslingual emotion classification. We find that
+> structural and typological similarity between languages facilitates cross-lingual learning, as
+> well as linguistic diversity of training data.  Our results suggest that there are commonalities underlying the
+> expression of emotion in different languages. We publicly release the anonymized data for future research.
+
+
 ## How to cite
 
 **To be revised!!!**
