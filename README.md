@@ -1,6 +1,5 @@
 # Universal Joy
-
-## A Dataset and Results for Classifying Emotions Across Languages
+### A Dataset and Results for Classifying Emotions Across Languages
 
 by Me and [Federico Bianchi](https://federicobianchi.io),
 [Daniel Hardt](https://www.cbs.dk/en/research/departments-and-centres/department-of-management-society-and-communication/staff/dhamsc),
