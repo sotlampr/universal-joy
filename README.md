@@ -37,6 +37,7 @@ ln -s datasets/test.csv emotion-test.csv
 
 pip install -r requirements.txt
 
+
 # Train a model on the small english subset and validate on english
 ./script.py --train_languages en --val_languages en --save en-small.pt
 
@@ -54,3 +55,48 @@ pip install -r requirements.txt
   joy: 0.6198288159771754
   sadness: 0.37142857142857144
 ```
+
+## Dataset splits
+### Small (2,947 instances per language)
+
+| language     |   en |   es |   pt |   tl |   zh |
+|--------------|------|------|------|------|------|
+| **emotion**  |      |      |      |      |      |
+| anger        |  175 |  169 |  167 |  389 |  276 |
+| anticipation | 1200 |  685 |  762 |  548 |  657 |
+| fear         |   34 |   14 |   21 |   95 |   63 |
+| joy          | 1153 | 1616 | 1257 | 1300 | 1600 |
+| sadness      |  385 |  463 |  740 |  615 |  351 |
+
+### Large (29,364 instances per language)
+
+| language     |   en |   es |   pt |
+|--------------|------|------|------|
+| **emotion**  |      |      |      |
+| anger        |  175 |  169 |  167 |
+| anticipation | 1200 |  685 |  762 |
+| fear         |   34 |   14 |   21 |
+| joy          | 1153 | 1616 | 1257 |
+| sadness      |  385 |  463 |  740 |
+
+### Huge (282,313 instances, only English)
+
+| emotion      |   instances |
+|--------------|-------------|
+| anger        |       16726 |
+| anticipation |      115000 |
+| fear         |        3236 |
+| joy          |      110446 |
+| sadness      |       36905 |
+
+### Low Resource (different size for every language)
+
+| language     |   bn |   de |   fr |   hi |   id |   it |   km |   ms |   my |   nl |   ro |   th |   vi |
+|--------------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| **emotion**  |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| anger        |  120 |  425 |  382 |  274 |  382 |  472 |  115 |  326 |  177 |  150 |   97 |  244 |  176 |
+| anticipation |  211 | 1475 | 1788 |  231 | 1841 | 1910 |  158 | 1344 |  130 |  788 |  560 |  938 | 1137 |
+| fear         |    7 |    8 |   22 |    8 |   32 |   20 |   23 |   34 |    9 |   10 |    8 |   21 |   39 |
+| joy          |  249 | 3388 | 3222 |  830 | 3077 | 3656 |  469 | 2566 |  412 |  981 |  923 | 2202 | 1982 |
+| sadness      |  282 |  606 | 1143 |  480 |  869 |  651 |  212 |  638 |  225 |  272 |  352 |  398 |  622 |
+
