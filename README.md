@@ -1,4 +1,4 @@
-# universal-joy
+# Universal Joy
 
 ## A Dataset and Results for Classifying Emotions Across Languages
 
