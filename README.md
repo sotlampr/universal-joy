@@ -2,7 +2,7 @@
 
 ## A Dataset and Results for Classifying Emotions Across Languages
 
-by Me and [Federico Bianchi](https://github.com/vinid),
+by Me and [Federico Bianchi](https://federicobianchi.io),
 [Daniel Hardt](https://www.cbs.dk/en/research/departments-and-centres/department-of-management-society-and-communication/staff/dhamsc),
 [Dirk Hovy](http://www.dirkhovy.com).
 
@@ -11,7 +11,7 @@ The dataset is licensed under a
 
 ### How to cite
 
-**DRAFT - to be revised**
+**To be revised!!!**
 ```
 @inproceedings{lamprinidis2021universal,
   title={Universal Joy A Dataset and Results for Classifying Emotions Across Languages},
