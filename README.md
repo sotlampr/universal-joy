@@ -2,6 +2,13 @@
 
 ## A Dataset and Results for Classifying Emotions Across Languages
 
+by Me and [Federico Bianchi](https://github.com/vinid),
+[Daniel Hardt](https://www.cbs.dk/en/research/departments-and-centres/department-of-management-society-and-communication/staff/dhamsc),
+[Dirk Hovy](http://www.dirkhovy.com).
+
+The dataset is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
 ### How to cite
 
 TBD
@@ -21,7 +28,7 @@ pip install -r requirements.txt
 ./script.py --train_languages en --val_languages en --save en-small.pt
 
 # Extract the dutch low-resource set
-./extract_language.py dataset/low-resource.csv nl.csv nl
+./extract_language.py datasets/low-resource.csv nl.csv nl
 
 # Test the model we've just trained on that
 ./test.py nl.csv en-small.pt en-to-nl
