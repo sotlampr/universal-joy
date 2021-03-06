@@ -70,14 +70,15 @@ pip install -r requirements.txt
 
 ### Large (29,364 instances per language)
 
-| language     |   en |   es |   pt |
-|--------------|------|------|------|
-| **emotion**  |      |      |      |
-| anger        |  175 |  169 |  167 |
-| anticipation | 1200 |  685 |  762 |
-| fear         |   34 |   14 |   21 |
-| joy          | 1153 | 1616 | 1257 |
-| sadness      |  385 |  463 |  740 |
+| language     |    en |    es |    pt |
+|--------------|-------|-------|-------|
+| **emotion**  |       |       |       |
+| anger        |  1740 |  1683 |  1664 |
+| anticipation | 11961 |  6829 |  7595 |
+| fear         |   337 |   140 |   204 |
+| joy          | 11488 | 16099 | 12527 |
+| sadness      |  3838 |  4613 |  7374 |
+
 
 ### Huge (282,313 instances, only English)
 
