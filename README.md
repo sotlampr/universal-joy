@@ -8,7 +8,13 @@ by Me and [Federico Bianchi](https://federicobianchi.io),
 The dataset is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
-### How to cite
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+
+-----
+## How to cite
 
 **To be revised!!!**
 ```
@@ -20,7 +26,7 @@ The dataset is licensed under a
   organization={Association for Computational Linguistics}
 }
 ```
-### How to run
+## How to run
 
 ```bash
 # Prepare the data
