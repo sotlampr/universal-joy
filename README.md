@@ -1,6 +1,9 @@
 # Universal Joy
 ### A Dataset and Results for Classifying Emotions Across Languages
 
+Work published at the *Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis (WASSA 2021)*
+
+
 by Me and [Federico Bianchi](https://federicobianchi.io),
 [Daniel Hardt](https://www.cbs.dk/en/research/departments-and-centres/department-of-management-society-and-communication/staff/dhamsc),
 [Dirk Hovy](http://www.dirkhovy.com).
@@ -27,9 +30,10 @@ The dataset is licensed under a
 > expression of emotion in different languages. We publicly release the anonymized data for future research.
 
 
-## How to cite
+## Reference
 
-**To be revised!!!**
+When using this dataset pleace cite the following paper, **Universal Joy A Dataset and Results for Classifying Emotions Across Languages**, that was accepted at the 11th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis (WASSA 2021).
+
 ```
 @inproceedings{lamprinidis2021universal,
   title={Universal Joy A Dataset and Results for Classifying Emotions Across Languages},
@@ -39,7 +43,9 @@ The dataset is licensed under a
   organization={Association for Computational Linguistics}
 }
 ```
-## How to run
+## Replicate our Experiments
+
+We provide the code that is necessary to replicate our experiments. Interested reader will find the detailed explanations of the experiment in the paper.
 
 ```bash
 # Prepare the data
@@ -70,6 +76,9 @@ pip install -r requirements.txt
 ```
 
 ## Dataset splits
+
+We also provide the balanced dataset split we have adopted in the paper.
+
 ### Small (2,947 instances per language)
 
 | language     |   en |   es |   pt |   tl |   zh |
