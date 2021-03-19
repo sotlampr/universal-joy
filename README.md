@@ -8,6 +8,9 @@ by Me and [Federico Bianchi](https://federicobianchi.io),
 [Daniel Hardt](https://www.cbs.dk/en/research/departments-and-centres/department-of-management-society-and-communication/staff/dhamsc),
 [Dirk Hovy](http://www.dirkhovy.com).
 
+[![DOI](https://zenodo.org/badge/342584140.svg)](https://zenodo.org/badge/latestdoi/342584140)
+
+
 The dataset is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
