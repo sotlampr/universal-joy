@@ -45,7 +45,7 @@ When using this dataset pleace cite the following paper, **Universal Joy A Datas
 ```
 ## Replicate our Experiments
 
-We provide the code that is necessary to replicate our experiments. Interested reader will find the detailed explanations of the experiment in the paper.
+We provide the code that is necessary to replicate our experiments. Interested readers will find the detailed explanations of the experiments in the paper.
 
 ```bash
 # Prepare the data
