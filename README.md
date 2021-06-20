@@ -19,6 +19,8 @@ The dataset is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 
+Click [Here](https://github.com/sotlampr/universal-joy/releases/tag/dataset-models) for the dataset.
+
 -----
 ## Abstract
 
